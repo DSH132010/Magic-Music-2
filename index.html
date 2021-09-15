@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music</title>
+    <link rel="shortcut icon" href="./assets/Images/logo.svg" type="image/svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="overlay">
+        <nav class="overlay-nav">
+            <div class="overlay-nav-header">
+                <li><a href="#"><img src="./assets/Images/logo.svg" alt="logo" class="logo"></a></li>
+                <li><a href="#"><img src="./assets/Images/close-icon.svg" alt="close icon" onclick="closeNav();"></a></li>
+            </div>
+            
+            <ul>
+                <li><a href="#" class="links active">Home</a></li>
+                <li><a href="#" class="links">Features</a></li>
+                <li><a href="#" class="links">Design</a></li>
+                <li><a href="#" class="links">Accessories</a></li>
+                <li><a href="#" class="links">Models</a></li>
+            </ul>
+
+        </nav>
+    </section>
+    <div class="container">
+        <section class="header">
+            <nav class="navbar">
+
+                <li><a href="#"><img src="./assets/Images/logo.svg" class="logo"></a></li>
+     
+                <ul>
+                    <li><a href="#" class="links active">Home</a></li>
+                    <li><a href="#" class="links">Features</a></li>
+                    <li><a href="#" class="links">Design</a></li>
+                    <li><a href="#" class="links">Accessories</a></li>
+                    <li><a href="#" class="links">Models</a></li>
+                </ul>
+                <img src="./assets/Images/ham.svg" alt="Toggle Icon" class="hamburger" onclick="openNav();">
+
+                <img src="./assets/Images/User-Icon.svg" alt="A Use Icon" class="user-icon">
+            </nav>
+     
+            <div class="circle"></div>
+            
+            <!-- <img src="./assets/Images/Beats-Solo3-sale-2@4x.png" alt="A Headphone Image" class="hero-img"> -->
+            <div class="hero">
+                <h1 class="title">Music</h1>
+            </div>
+     
+            <!-- <div class="scroll-down"> -->
+                <!-- <img src="./assets/Images/Down-Arrow.svg" alt="Scroll Down Arrow"> -->
+            <!-- </div> -->
+        </section>
+        <section class="Features">
+            <img src="./assets/Images/619d02RgZ4L._AC_SL1500_-removebg-preview.png" alt="Ear Phone Image" class="features-image">
+      
+            <div class="right">
+                <ul>
+                    <li id="para-1">Noise Cancelling</li>
+                    <li id="para-2">Water Resistant</li>
+                    <li id="para-3">Voice Assistants</li>
+                    <li id="para-4">Microphones Controls</li>
+                    <li id="para-5">Volume Limiting</li>
+                    <li id="para-6">Sound Amplification</li>
+                </ul>
+                <div class="flex">
+                    <a href="#para-1" class="slide-nav slide-nav-1" id="slideNav" onclick="dot1()">.</a>
+                    <a href="#para-2" class="slide-nav slide-nav-2" id="slideNav" onclick="dot2()">.</a>
+                    <a href="#para-3" class="slide-nav slide-nav-3" id="slideNav" onclick="dot3()">.</a>
+                    <a href="#para-4" class="slide-nav slide-nav-4" id="slideNav" onclick="dot4()">.</a>
+                    <a href="#para-5" class="slide-nav slide-nav-5" id="slideNav" onclick="dot5()">.</a>
+                    <a href="#para-6" class="slide-nav slide-nav-6" id="slideNav" onclick="dot6()">.</a>
+                </div>
+            </div>
+            
+    
+            </section>
+            <!-- <section class="Design"></section>
+        <section class="Accesories"></section> -->
+        <section class="Models"></section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
